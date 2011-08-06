@@ -49,3 +49,5 @@ map <F6> zg
 map <F8> z=
 
 
+" Vim
+nmap <silent> <F5> :NERDTreeToggle<CR>
