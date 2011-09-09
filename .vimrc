@@ -4,10 +4,20 @@ scriptencoding latin1
 " Not compatible with VI
 set nocompatible
 
+" alt+n or alt+p to navigate between entries in QuickFix
+map <silent> <m-p> :cp <cr>
+map <silent> <m-n> :cn <cr>
+
 " Enable syntax
 syntax on
 " Indentation by filetype
 filetype indent on
+
+" Line numbers on
+set nu
+
+" Show matching brackets.
+set showmatch  
 
 " Search while typing
 set incsearch
@@ -48,4 +58,9 @@ map <F7> <esc>:set invspell<CR>
 map <F6> zg
 map <F8> z=
 
+"NerdTree
+nmap <silent><F5> :NERDTreeToggle<CR>
 
+"Movimentar nas Abas
+map <C-Left> :tabprevious<cr>
+map <C-Right> :tabnext<cr>
