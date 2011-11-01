@@ -61,11 +61,14 @@ map <F8> z=
 "NerdTree
 nmap <silent><F5> :NERDTreeToggle<CR>
 
-<<<<<<< HEAD
+
 "Movimentar nas Abas
 map <C-Left> :tabprevious<cr>
 map <C-Right> :tabnext<cr>
-=======
+
 " Vim
 nmap <silent> <F5> :NERDTreeToggle<CR>
->>>>>>> 8d5d8638966c3720097b508bf38b37095e597ea6
+
+" Bubble multiple lines
+vmap <C-Up> xkP`[V`]
+vmap <C-Down> xp`[V`]
