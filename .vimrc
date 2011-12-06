@@ -48,7 +48,7 @@ vnoremap <C-c> "+y
 vnoremap <C-x> "+x
 
 " Full file indent
-noremap <C-f>f <ESC>:normal mzgg=G`zzz<CR>
+noremap ,ff <ESC>:normal mzgg=G`zzz<CR>
 
 " Spell
 set spelllang=en,pt
