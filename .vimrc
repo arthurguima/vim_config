@@ -1,5 +1,6 @@
 "Pathogenic : control plugins
-call pathogen#infect()
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
 
 " My world is utf8
 "  LANG to latin1
