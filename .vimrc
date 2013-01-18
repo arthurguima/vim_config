@@ -1,3 +1,6 @@
+"Pathogenic : control plugins
+call pathogen#infect()
+
 " My world is utf8
 "  LANG to latin1
 scriptencoding latin1
@@ -65,9 +68,6 @@ nmap <silent><F5> :NERDTreeToggle<CR>
 "Movimentar nas Abas
 map <C-Left> :tabprevious<cr>
 map <C-Right> :tabnext<cr>
-
-" Vim
-nmap <silent> <F5> :NERDTreeToggle<CR>
 
 " Bubble multiple lines
 vmap <C-Up> xkP`[V`]
