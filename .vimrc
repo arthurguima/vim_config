@@ -1,7 +1,3 @@
-"Pathogenic : control plugins
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
-
 " My world is utf8
 "  LANG to latin1
 scriptencoding latin1
@@ -54,17 +50,8 @@ vnoremap <C-x> "+x
 " Full file indent
 noremap ,ff <ESC>:normal mzgg=G`zzz<CR>
 
-" Spell
-set spelllang=en,pt
-let spell_auto_type="tex,mail,txt"
-autocmd FileType tex,txt,mail,text set spell
-map <F7> <esc>:set invspell<CR>
-map <F6> zg
-map <F8> z=
-
 "NerdTree
 nmap <silent><F5> :NERDTreeToggle<CR>
-
 
 "Movimentar nas Abas
 map <C-Left> :tabprevious<cr>
