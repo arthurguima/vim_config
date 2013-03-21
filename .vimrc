@@ -60,3 +60,25 @@ map <C-Right> :tabnext<cr>
 " Bubble multiple lines
 vmap <C-Up> xkP`[V`]
 vmap <C-Down> xp`[V`]
+
+"Vundle
+set nocompatible
+filetype off  " required!
+
+set rtp+=~/.vim/bundle/vundle 
+call vundle#rc()
+
+" let Vundle manage Vundle
+ " required! 
+Bundle 'gmarik/vundle'
+
+filetype plugin indent on     " required!
+
+" My Bundles here:
+"
+" original repos on github
+Bundle 'scrooloose/nerdtree'
+Bundle 'tpope/vim-rails.git'
+" vim-scripts repos
+Bundle 'FuzzyFinder'
+
