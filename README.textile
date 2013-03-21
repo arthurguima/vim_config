@@ -1,0 +1,11 @@
+h1. My Vim Config files
+
+* Author: Arthur Henrique Guimarães<"arthur@nucleoassistir.com>
+
+h2. How to use
+
+* $ git clone https://github.com/arthurguima/vim_config.git
+* $ cp vim_config/.vimrc ~/.vimrc
+* $ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+* run VIM and type :BundleInstall
+
